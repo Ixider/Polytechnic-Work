@@ -1,0 +1,26 @@
+html, body {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+}
+
+#headers {
+	background-color: #C0C0C0;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#footer, #push {
+	height: 60px;
+}
+
+#footer {
+	background-color: #C0C0C0;
+}

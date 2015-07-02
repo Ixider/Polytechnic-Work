@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Welcome To Dunedin</string>
+
+    <string-array name="top_level_nav_list">
+        <item>Services</item>
+        <item>Fun things to do</item>
+        <item>Dining</item>
+        <item>Shopping</item>
+    </string-array>
+    
+    <string-array name="top_level_nav_images">
+        <item>library</item>
+    </string-array>
+</resources>

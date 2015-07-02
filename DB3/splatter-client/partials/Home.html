@@ -1,0 +1,74 @@
+
+<div class="navbar navbar-default" role="navigation" id="headers">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#"> Spatter</a>
+	
+		<div ng-show="user.isLogedIn">
+			<div class="container pull-right">
+				{{ user.loggedin_user.name }}
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="contentContainer">
+
+	<div class="row" id="rows">
+	
+		<div class="col-md-4 cols"> 
+			<div class="panel panels panel-default"> 
+				<div class="panel-body">
+				
+					<h3> User List </h3>
+
+					<div class="input-group">
+						<input type="text"ng-model="search.name" class="form-control">
+						<span class="input-group-addon glyphicon glyphicon-search"></span>
+					</div>
+					<div class="btn-group-vertical" style="width:100%;">
+						<button type="button" class="btn btn-primary" style="width:100%" ng-click="user.getSpatFeed(-1)"> All </button>
+						<button ng-animate="'animate'" ng-repeat="i in user.ul | filter:search" type="button" class="btn btn-primary" ng-click="user.getSpatFeed(i)" style="width:100%">{{ i.name }}</button>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-8 cols">
+			<div class="panel panels panel-default" > 
+				<div class="panel-body">
+				
+					<div class="container spatfeed" style="padding-bottom: 20px;" ng-show="user.isLogedIn">
+						
+						<form ng-submit="user.postSpat(spatt)" role="form">
+							<textarea ng-model="spatt.data.body" class="form-control" rows="3"></textarea>
+							<button type="submit" class="btn btn-success" >Post</button>
+						</form>
+					</div>
+						<div class ="panel panel-default" style="width: 100%; height: 70px;">
+							<div class="panel-body">
+								<b> {{ user.currentViewedUser.name }} </b>
+								<div class="btn-group">
+									  <button ng-show="user.currentViewedUser" ng-click="user.viewProfile()" type="button" class="btn btn-default">View Profile</button>
+									  <button ng-show="user.isLogedIn && user.currentViewedUser" type="button" ng-click="user.followUser()" class="btn btn-default"> Follow </button>
+								</div>
+								
+							</div>
+						</div>
+
+					<div ng-repeat="s in user.sl">
+					
+						<blockquote>
+							<p>{{s.body}}</p>
+							<footer ng-model="ul[s.user]"> {{ user.ul[s.user_id - 1].name }} <cite title="Source Title"> - {{s.created_at | date:'medium'}}</cite></footer>
+						</blockquote>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+</div>
+

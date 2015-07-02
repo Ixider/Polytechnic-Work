@@ -1,0 +1,23 @@
+
+  [
+    {
+      "id": "0",
+      "title": "Services",
+      "imageName": "library"
+    },
+    {
+      "id": "1",
+      "title": "Fun Things To Do",
+      "imageName": "monarch"
+    },
+    {
+      "id": "2",
+      "title": "Dining",
+      "imageName": "customhouse"
+    },
+    {
+      "id": "3",
+      "title": "Shopping",
+      "imageName": "thieves_alley"
+    }
+  ]

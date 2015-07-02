@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+
+    <SearchView
+        android:id="@+id/eventSearchBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Music, Concerts, Film, Food... " >
+    </SearchView>
+
+
+    <ListView
+        android:id="@+id/eventListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:isScrollContainer="true">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Glennsp1Prac4-2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="placeholders">
+        <item>Sheep</item>
+        <item>Cow</item>
+        <item>Placeholder 3</item>
+        <item>Placeholder 4</item>
+        <item>Placeholder 5</item>
+        <item>Placeholder 6</item>
+    </string-array>
+</resources>

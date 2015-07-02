@@ -1,0 +1,29 @@
+
+<div class="navbar navbar-default" role="navigation" id="headers">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#"> Spatter</a>
+	</div>
+
+		<form  id="loginForm" class="form-inline" role="form" ng-submit="user.login(user)">
+			<div class="form-group">
+				<label class="sr-only" for="username">Email address</label>
+				<input ng-model="user.data.name" type="username" class="form-control" placeholder="User name" name="username" required>
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="password">Password</label>
+				<input ng-model="user.data.password" type="password" class="form-control"  placeholder="Password" name="password" required>
+			</div>
+			<button id="loginButton" type="submit" class="btn btn-success">Sign in</button>
+			
+			<div id="form-messages"></div>
+		</form>
+</div>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Welcome to Spatter!</h1>
+		<p>A knock off twitter app! Please login or register to get spatting</p>
+		<p><a class="btn btn-primary btn-lg" role="button" ng-href="#register"> Register </a> </p>
+	</div>	
+</div>	
+	

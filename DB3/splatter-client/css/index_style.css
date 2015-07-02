@@ -1,0 +1,18 @@
+
+#passwordField {
+	width: 150px;
+}
+
+#usernameField {
+	width: 150px;
+}
+
+#loginButton {
+	width: 100px;
+}
+
+#loginForm {
+	padding-top: 8px;
+	padding-right: 20px;
+	float: right !important;
+}

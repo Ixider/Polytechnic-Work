@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Language Trainer</string>
+    <string name="title_acticity_lesson_results">Results</string>
+
+    <string-array name="lessonLables">
+        <item>Lesson 1</item>
+        <item>Lesson 2</item>
+    </string-array>
+
+    <string name="Der">Der</string>
+    <string name="Die">Die</string>
+    <string name="Das">Das</string>
+    <string name="title_activity_display_fragment">DisplayFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_quiz__results">Quiz_Results</string>
+
+</resources>

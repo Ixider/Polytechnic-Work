@@ -1,0 +1,24 @@
+<resources>
+    //App labels
+    <string name="app_name">Third Party Libraries</string>
+
+    //Nav Items
+    <string-array name="ActivityList" >
+        <item>Ripple Background</item>
+        <item>Image Explode Animation</item>
+        <item>View Animations</item>
+        <item>Google Maps</item>
+    </string-array>
+
+    <string name="drawer_nav_open">Navigation</string>
+
+    //View labels
+    <string name="button_explode_animation">Animate</string>
+
+    //Service Info
+    <string name="google_api_key">AIzaSyAkwvS6khJLiHOG2Nq0upzl-eEiQ5Q-xiE</string>
+
+
+
+
+</resources>

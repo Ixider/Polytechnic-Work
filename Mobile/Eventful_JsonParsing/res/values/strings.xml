@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eventful_JsonParsing</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string-array name="locationList">
+        <item>Dunedin</item>
+        <item>Christchurch</item>
+        <item>Invercargill</item>
+    </string-array>
+    
+</resources>

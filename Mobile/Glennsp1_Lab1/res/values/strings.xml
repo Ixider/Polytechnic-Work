@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Glennsp1_Lab1</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity Labels -->
+    <string name="title_activity_lab1__part1">Lab1 Part 1</string>
+    <string name="title_activity_lab1__part2">Lab1 Part 2</string>
+
+    <!-- Lab Part 1 Strings -->
+    <string name="part1_buttonLable"> Randomise </string>
+
+    <string-array name="dogs">
+        <item>Poodle</item>
+        <item>Labrador</item>
+        <item>Shar Pei</item>
+        <item>Newfoundland</item>
+    </string-array>
+
+    <!-- Lab Part 2 Strings -->
+
+    <string name="textViewLable">February Fridays on:  </string>
+    <string name="title_activity_lab2__part1">Lab2_Part1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_lab2__part2">Lab2_Part2</string>
+
+</resources>

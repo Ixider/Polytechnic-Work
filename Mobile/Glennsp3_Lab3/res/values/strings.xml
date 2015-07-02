@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Glennsp3_Lab3</string>
+   
+    <string name="enrol_page_title">Enroll for Music Lessons</string>
+    <string name="instrument_radio_lable">Choose your instrument:</string>
+    <string name="enrol_confirm_button_lable">Enrol Me!</string>
+    <string name="enrol_spinner_lable"> When do you want to start?</string>
+    
+    <string-array name="start_months">
+        <item>January</item>
+        <item>Febuary </item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>

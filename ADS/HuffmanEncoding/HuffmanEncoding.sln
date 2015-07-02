@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HuffmanEncoding", "HuffmanEncoding\HuffmanEncoding.vcproj", "{42542F30-D59D-4F62-BE6A-534DAF415B39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42542F30-D59D-4F62-BE6A-534DAF415B39}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42542F30-D59D-4F62-BE6A-534DAF415B39}.Debug|Win32.Build.0 = Debug|Win32
+		{42542F30-D59D-4F62-BE6A-534DAF415B39}.Release|Win32.ActiveCfg = Release|Win32
+		{42542F30-D59D-4F62-BE6A-534DAF415B39}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

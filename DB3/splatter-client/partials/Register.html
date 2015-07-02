@@ -1,0 +1,43 @@
+
+<div class="navbar navbar-default" role="navigation" id="headers">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#"> Spatter</a>
+	</div>
+</div>
+
+<div class="container" >
+	<h2> Registration Form </h2>
+	
+	<form  id="registerForm" class="form" role="form" ng-submit="user.signup(user)">
+		<!-- Name field -->
+		<div class="form-group">
+			<label class="sr-only" for="name">Email address</label>
+			<input ng-model="user.data.cname" type="username" class="form-control" placeholder="User name" name="name" required>
+		</div>
+		
+		<!-- Password field -->
+		<div class="form-group">
+			<label class="sr-only" for="password">Password</label>
+			<input ng-model="user.data.cpassword" type="password" class="form-control" placeholder="Password" name="password" required>
+		</div>
+		
+		<!-- Email field -->
+		<div class="form-group">
+			<label class="sr-only" for="email">Password</label>
+			<input ng-model="user.data.cemail" type="email" class="form-control" placeholder="Email@example.com" name="email" required>
+		</div>
+		
+		<!-- Blurb field -->
+		<div class="form-group">
+			<label class="sr-only" for="blurb">Password</label>
+			<input ng-model="user.data.cblurb" class="form-control" placeholder="Blurb" name="blurb" required>
+		</div>
+		
+		<button type="submit" class="btn btn-success" value="Create">Register</button>
+		<a ng-href="#index"><button type="submit" class="btn btn-danger"> Cancel </button></a>
+
+		<div id="form-messages"></div>
+		
+	</form>
+</div>
+		

@@ -1,0 +1,25 @@
+﻿Build started 30/07/2014 11:49:06 a.m..
+     1>Project "H:\My Documents\GitHub\ADS\PatientPriorityQueue\TestProj\TestProj.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TestProj.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         TestProj.vcxproj -> H:\My Documents\GitHub\ADS\PatientPriorityQueue\Debug\DefaultTest.dll
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
+       FinalizeBuildStatus:
+         Deleting file "Debug\TestProj.unsuccessfulbuild".
+         Touching "Debug\TestProj.lastbuildstate".
+     1>Done Building Project "H:\My Documents\GitHub\ADS\PatientPriorityQueue\TestProj\TestProj.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

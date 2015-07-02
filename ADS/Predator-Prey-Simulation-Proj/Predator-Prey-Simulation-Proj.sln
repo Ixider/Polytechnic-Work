@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predator-Prey-Simulation-Proj", "Predator-Prey-Simulation-Proj\Predator-Prey-Simulation-Proj.vcproj", "{B935BB24-503B-4FA4-836F-8C5F3F5F704F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B935BB24-503B-4FA4-836F-8C5F3F5F704F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B935BB24-503B-4FA4-836F-8C5F3F5F704F}.Debug|Win32.Build.0 = Debug|Win32
+		{B935BB24-503B-4FA4-836F-8C5F3F5F704F}.Release|Win32.ActiveCfg = Release|Win32
+		{B935BB24-503B-4FA4-836F-8C5F3F5F704F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

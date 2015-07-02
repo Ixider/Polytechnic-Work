@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Glennsp1Lab3-2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    
+    <string name="settings_string">Bacon ipsum dolor amet bresaola t-bone ball tip fatback meatball beef ribs meatloaf landjaeger venison tri-tip ribeye sausage chuck shankle shank.</string>
+	<string name="main_screen_string">Pancetta alcatra chicken, shank bresaola tenderloin bacon drumstick filet mignon ham hock jowl. Pork swine salami pig prosciutto. Kielbasa pork chop sirloin, shoulder beef ribs andouille pork. Brisket strip steak andouille leberkas, cupim prosciutto drumstick tail. Sirloin hamburger pastrami, jerky doner alcatra frankfurter chuck tenderloin turducken cow. Tri-tip sausage turducken alcatra rump pork chop porchetta meatloaf swine cow corned beef tail andouille flank picanha. Porchetta tenderloin picanha, tail filet mignon shoulder beef pork.</string>
+</resources>

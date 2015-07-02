@@ -1,0 +1,6 @@
+﻿{
+    "name": "socket-chat-example",
+    "version": "0.0.1",
+    "description": "testing communitcations between android clients with sockets",
+    "dependencies": {}
+}

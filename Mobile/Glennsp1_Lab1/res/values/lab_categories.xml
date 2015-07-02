@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lab_sections">
+        <item>Lab 1 - Part 1</item>
+        <item>Lab 1 - Part 2</item>
+        <item>Lab 2 - Part 1</item>
+        <item>Lab 2 - Part 2</item>
+    </string-array>
+</resources>

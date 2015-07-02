@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<German>
+	<L1DATA>
+		 <Gender>Masculine</Gender>
+		 <Article>Der</Article>
+		 <Noun>Apfel</Noun>
+		 <English>Apple</English>
+		 <ImageName>der_apfel</ImageName>
+	</L1DATA>
+   	
+    <L1DATA>
+	    <Gender>Neutral </Gender>
+	    <Article>Das</Article>
+	    <Noun>Auto </Noun>
+	    <English>Car </English>
+	    <ImageName>das_auto</ImageName>
+   	</L1DATA>   
+
+    <L1DATA>
+	    <Gender>Masculine </Gender>
+	    <Article>Der</Article>
+	    <Noun>Baum</Noun>
+	    <English>Tree</English>
+	    <ImageName>der_baum</ImageName>
+   	</L1DATA>     
+   	
+    <L1DATA>
+	    <Gender>Feminine</Gender>
+	    <Article>Die</Article>
+	    <Noun>Ente</Noun>
+	    <English>Duck</English>
+	    <ImageName>die_ente</ImageName>
+   	</L1DATA>    
+   	
+    <L1DATA>
+	    <Gender>Neutral</Gender>
+	    <Article>Das</Article>
+	    <Noun>Hause</Noun>
+	    <English> House </English>
+	    <ImageName>das_haus</ImageName>
+   	</L1DATA>   
+   	
+   	<L1DATA>
+	    <Gender>Feminine</Gender>
+	    <Article>Die</Article>
+	    <Noun>Hexe</Noun>
+	    <English>Witch</English>
+	    <ImageName>die_hexe</ImageName>
+   	</L1DATA>   
+   	
+   	<L1DATA>
+	    <Gender>Feminine</Gender>
+	    <Article>Die</Article>
+	    <Noun>Kuh</Noun>
+	    <English>Cow</English>
+	    <ImageName>die_kuh</ImageName>
+   	</L1DATA>  
+   	
+   	<L1DATA>
+	    <Gender>Feminine</Gender>
+	    <Article>Die</Article>
+	    <Noun>Milch</Noun>
+	    <English>Milk</English>
+	    <ImageName>die_milch</ImageName>
+   	</L1DATA>
+   	
+   	<L1DATA>
+	    <Gender>Neutral</Gender>
+	    <Article>Das</Article>
+	    <Noun>Schaf</Noun>
+	    <English>Sheep</English>
+	    <ImageName>das_schaf</ImageName>
+   	</L1DATA>
+   	
+   	<L1DATA>
+	    <Gender>Feminine</Gender>
+	    <Article>Die</Article>
+	    <Noun>Strasse</Noun>
+	    <English>Street</English>
+	    <ImageName>die_strasse</ImageName>
+   	</L1DATA>
+   	
+   	<L1DATA>
+	    <Gender>Masculine</Gender>
+	    <Article>Der</Article>
+	    <Noun>Stuhl</Noun>
+	    <English>Chair</English>
+	    <ImageName>der_stuhl</ImageName>
+   	</L1DATA>
+</German>

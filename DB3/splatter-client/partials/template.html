@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="splatter-web" lang="en">
+	<head>
+		<title>Written Tutorials</title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		
+
+		<script src="js/Angular/angular.min.js"></script>
+		<script src="js/Angular/angular-resource.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+		<script src="js/app.js"></script>
+		
+		<script src="js/jquery-1.11.1.js"></script>		
+
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+		
+		<link href="css/index_style.css" rel="stylesheet" />
+		<link href="css/template.css" rel="stylesheet" />
+		<link href="css/home_style.css" rel="stylesheet" />
+		<link href="css/template.css" rel="stylesheet" />		
+		
+	</head>
+	<body>
+
+		<div class="wrapper">
+			<div ng-view ng-controller="UserController as user"></div>		
+			<div id="push"></div>			
+		</div>	
+		<div id="footer">
+			<div class="container">  </div>
+		</div>
+
+	</body>
+</html>		
+
+<!--
+		<div id="wrap">
+			<div class="navbar navbar-default" role="navigation" id="headers">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"> Spatter</a>
+				</div>
+			</div>
+			
+			<div class="container">
+			</div>	
+			
+			<div id="push"></div>
+		</div>	
+		
+		<div id="footer">
+			<div class="container">  </div>
+		</div>
+-->

@@ -1,0 +1,39 @@
+<div class="navbar navbar-default" role="navigation" id="headers">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#"> Spatter</a>
+	</div>
+</div>
+
+<div class="container" style="height: 800px;"> 
+	<div class="row" id="rows">
+	
+		<div class="col-md-4 cols"> 
+			<div class="panel panels panel-default"> 
+				<div class="panel-body">
+				
+					<h3> User Follows </h3>
+		
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-8 cols">
+			<div class="panel panel-default" style="height: 280px;  padding: 15px;">
+				
+				<h3 class="container"> {{ user.currentViewedUser.name }}</h3>
+				<h5 class="container well" style="width:100%; height:80%;"> {{ user.currentViewedUser.blurb  }}</h5>				
+			</div>
+			<div class="panel panels panel-default" style="height:500px" > 
+					<div ng-repeat="s in user.sf">
+					
+						<blockquote>
+							<p>{{s.body}}</p>
+							<footer ng-model="ul[s.user]"> {{ user.ul[s.user_id - 1].name }} <cite title="Source Title"> - {{s.created_at | date:'medium'}}</cite></footer>
+						</blockquote>
+					
+					</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
