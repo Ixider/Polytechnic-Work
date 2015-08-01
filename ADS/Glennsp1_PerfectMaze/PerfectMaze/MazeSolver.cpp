@@ -1,13 +1,15 @@
 #include "stdafx.h"
 #include "MazeSolver.h"
 
-MazeSolver::MazeSolver() {
+
+MazeSolver::MazeSolver(Config^ sConfig) {
 	rGen = gcnew Random();
+	config = sConfig;
 }
 
 Queue<Node^>^ MazeSolver::solveMaze(array<Node^, 2>^ maze) {
 	Queue<Node^>^ path = gcnew Queue<Node^>();
-	Point endNodeAddress = Point(Constants::MAX_COLS - 1, Constants::MAX_ROWS - 1);
+	Point endNodeAddress = Point(config->MAX_COLS - 1, config->MAX_ROWS - 1);
 
 	path->Push(maze[0,0]);
 	Node^ currentNode;

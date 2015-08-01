@@ -1,15 +1,16 @@
 #include "stdafx.h"
 #include "MazeGenerator.h"
 
-MazeGenerator::MazeGenerator() {
+MazeGenerator::MazeGenerator(Config^ sConfig) {
 	rGen = gcnew Random();
+	config = sConfig;
 }
 
 // MAZE GENERATION
 array<Node^,2>^ MazeGenerator::buildMaze() {
-	array<Node^, 2>^  mazeGrid = gcnew array<Node^, 2>(Constants::MAX_ROWS, Constants::MAX_COLS);
-	for(int i = 0; i < Constants::MAX_COLS; i++) {
-		for(int j = 0; j < Constants::MAX_ROWS; j++) {
+	array<Node^, 2>^  mazeGrid = gcnew array<Node^, 2>(config->MAX_ROWS, config->MAX_COLS);
+	for (int i = 0; i < config->MAX_COLS; i++) {
+		for (int j = 0; j < config->MAX_ROWS; j++) {
 			mazeGrid[i,j] = gcnew Node(Point(i, j), true, true, true, true, false);
 		}
 	}
@@ -69,9 +70,9 @@ System::Collections::Generic::List<Node^>^ MazeGenerator::retrieveUnvistedAdjace
 		adjNodes->Add(maze[ca.X -1, ca.Y]);
 	if(ca.Y - 1 >= 0) //Add Node to the North
 		adjNodes->Add(maze[ca.X, ca.Y - 1]);
-	if(ca.X + 1 < Constants::MAX_COLS) //Add node to the East
+	if (ca.X + 1 < config->MAX_COLS) //Add node to the East
 		adjNodes->Add(maze[ca.X + 1, ca.Y]);
-	if(ca.Y + 1 < Constants::MAX_ROWS) //Add node to the South
+	if (ca.Y + 1 < config->MAX_ROWS) //Add node to the South
 		adjNodes->Add(maze[ca.X, ca.Y + 1]);
 
 	//Filters out already vistited nodes
@@ -84,12 +85,12 @@ System::Collections::Generic::List<Node^>^ MazeGenerator::retrieveUnvistedAdjace
 
 
 bool MazeGenerator::allNodesVisisted(array<Node^,2>^ maze) {
-	int Total = Constants::MAX_COLS * Constants::MAX_ROWS;
+	int Total = config->MAX_COLS * config->MAX_ROWS;
 
 	int Count = 0;
 
-	for(int i = 0; i < Constants::MAX_COLS; i++) 
-		for(int j = 0; j < Constants::MAX_ROWS; j++) 
+	for (int i = 0; i < config->MAX_COLS; i++)
+		for (int j = 0; j < config->MAX_ROWS; j++)
 			if(maze[i,j]->Visited == true)
 				Count++;
 		
@@ -100,8 +101,8 @@ bool MazeGenerator::allNodesVisisted(array<Node^,2>^ maze) {
 }
 
 void MazeGenerator::resetVisitedCells(array<Node^, 2>^ maze) {
-	for(int i = 0; i < Constants::MAX_COLS; i++)
-		for(int j = 0; j < Constants::MAX_ROWS; j++)
+	for (int i = 0; i < config->MAX_COLS; i++)
+		for (int j = 0; j < config->MAX_ROWS; j++)
 			maze[i,j]->Visited = false;
 }
 

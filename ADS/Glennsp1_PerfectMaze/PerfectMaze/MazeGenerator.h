@@ -1,13 +1,15 @@
 #pragma once
 #include "Node.h"
 #include "Queue.h"
-#include "Constants.h"
+#include "Config.h"
 
 using namespace::System;
 
 ref class MazeGenerator {
 private:
 	Random^ rGen;
+	Config^ config;
+
 	//Maze Generation Methods
 	void createPath(array<Node^, 2>^ maze);
 	bool allNodesVisisted(array<Node^,2>^ maze);
@@ -17,6 +19,6 @@ private:
 	
 
 public:
-	MazeGenerator();
+	MazeGenerator(Config^ sConfig);
 	array<Node^,2>^ buildMaze();
 };

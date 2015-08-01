@@ -1,0 +1,18 @@
+﻿Build started 08-Jul-15 11:25:36 AM.
+     1>Project "F:\GitHub\Polytechnic Work\ADS\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\GitHub\Polytechnic Work\ADS\SortingAlgorithms\Debug\SortingAlgorithms.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\SortingAlgorithms.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\GitHub\Polytechnic Work\ADS\SortingAlgorithms\Debug\SortingAlgorithms.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Debug\app.res
+         Debug\ArrayFactory.obj
+         Debug\AssemblyInfo.obj
+         Debug\Manager.obj
+         Debug\Sort.obj
+         Debug\SortingAlgorithms.obj
+         Debug\Statistics.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         SortingAlgorithms.vcxproj -> F:\GitHub\Polytechnic Work\ADS\SortingAlgorithms\Debug\SortingAlgorithms.exe
+     1>Done Building Project "F:\GitHub\Polytechnic Work\ADS\SortingAlgorithms\SortingAlgorithms\SortingAlgorithms.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67

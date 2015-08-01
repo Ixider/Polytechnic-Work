@@ -3,15 +3,26 @@
 
 Manager::Manager(Display ^Display) {
 	display = Display;
-	mg = gcnew MazeGenerator();
-	ms = gcnew MazeSolver();
+	init(gcnew Config());
+}
 
+void Manager::init(Config^ config) {
+	mg = gcnew MazeGenerator(config);
+	ms = gcnew MazeSolver(config);
+	clearCanvas();
+}
+
+void Manager::createMaze() {
+	clearCanvas();
+	maze = mg->buildMaze();
+	display->DrawMaze(maze);
 }
 
 void Manager::draw() {
-	array<Node^, 2>^ maze = mg->buildMaze();
 	Queue<Node^>^ path = ms->solveMaze(maze);
-	display->drawMaze(maze);
-	display->drawSolution(path);
+	display->DrawSolution(path);
+}
 
+void Manager::clearCanvas() {
+	display->ClearScreen();
 }
